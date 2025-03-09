@@ -1,0 +1,20 @@
+2025-03-09T21:51:30.054+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] com.logging.Application                  : Starting Application using Java 17.0.8 with PID 17652 (D:\Spring projects\02-sb-logging-slf4j\target\classes started by aashu in D:\Spring projects\02-sb-logging-slf4j)
+2025-03-09T21:51:30.056+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] com.logging.Application                  : No active profile set, falling back to 1 default profile: "default"
+2025-03-09T21:51:30.111+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-09T21:51:30.111+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-09T21:51:31.088+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9294 (http)
+2025-03-09T21:51:31.104+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-09T21:51:31.106+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-09T21:51:31.167+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-09T21:51:31.167+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1055 ms
+2025-03-09T21:51:31.508+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-09T21:51:31.551+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9294 (http) with context path '/'
+2025-03-09T21:51:31.562+05:30  INFO 17652 --- [02-sb-loggin] [restartedMain] com.logging.Application                  : Started Application in 2.025 seconds (process running for 2.75)
+2025-03-09T21:51:40.276+05:30  INFO 17652 --- [02-sb-loggin] [http-nio-9294-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-09T21:51:40.277+05:30  INFO 17652 --- [02-sb-loggin] [http-nio-9294-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-09T21:51:40.279+05:30  INFO 17652 --- [02-sb-loggin] [http-nio-9294-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-09T21:51:40.314+05:30  INFO 17652 --- [02-sb-loggin] [http-nio-9294-exec-1] com.logging.AppLogInfoController         : getWelMsg() -->  Method execution started........
+2025-03-09T21:51:40.314+05:30  INFO 17652 --- [02-sb-loggin] [http-nio-9294-exec-1] com.logging.AppLogInfoController         : getWelMsg() --> Method execution ended.......
+2025-03-09T21:52:32.640+05:30  INFO 17652 --- [02-sb-loggin] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-09T21:52:32.646+05:30  INFO 17652 --- [02-sb-loggin] [RMI TCP Connection(3)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-09T21:52:32.750+05:30  INFO 17652 --- [02-sb-loggin] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
